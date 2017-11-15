@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Exoplanet Child Theme
+ Theme URI: http://uxlthemes.com/theme/exoplanet
+ Description:  Exoplanet Child Theme
+ Author: uXL Themes / Dev-Vista
+ Author URI: http://uxlthemes.com
+ Template:     exoplanet
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  exoplanet-child-theme
+*/
+
+
+#primary{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#bottom-footer,
+#featured-post-section{
+	display: none;
+}
+
+#featured-post-section, #about-us-section {
+	padding-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.menu > ul > li.current_page_item > a:before, .menu > ul > li.current-menu-item > a:before {
+	top: 52px;
+}
+
+.menu > ul > li > a:hover:before {
+	display: none;
+}
+
+#masthead::after {
+	text: "WHAT";
+}
